@@ -250,8 +250,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: /Users/Marcin/Documents/GitHub/dotBloch ketstore/dotBloch-
-    key.keystore
+  AndroidKeystoreName: C:/Users/Adam/Downloads/Klucz aplikacji/dotBloch- key.keystore
   AndroidKeyaliasName: dotbloch - key
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
@@ -443,6 +442,7 @@ PlayerSettings:
       m_SubKind: iPhone
     - m_Textures:
       - {fileID: 2800000, guid: 448a03ff5b17b44d0b2ba190761ca81c, type: 3}
+
       m_Width: 120
       m_Height: 120
       m_Kind: 0
@@ -459,6 +459,7 @@ PlayerSettings:
       m_Height: 152
       m_Kind: 0
       m_SubKind: iPad
+
     - m_Textures:
       - {fileID: 2800000, guid: 448a03ff5b17b44d0b2ba190761ca81c, type: 3}
       m_Width: 76
@@ -547,6 +548,11 @@ PlayerSettings:
       m_Height: 20
       m_Kind: 2
       m_SubKind: iPad
+    - m_Textures: []
+      m_Width: 1024
+      m_Height: 1024
+      m_Kind: 4
+      m_SubKind: App Store
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
