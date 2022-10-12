@@ -11,6 +11,7 @@ public class SettingsBackgroundDropdown : MonoBehaviour
 
     public void ChangeColor()
     {
+        Debug.Log("The color is changed");
         if(backgroundDropdown.value == 0)
         {
             camera.backgroundColor = new Color(0.02745098f, 0.07843138f, 0.1803922f, 255);
