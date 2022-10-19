@@ -4529,6 +4529,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7802870a477b77d4b8943c2135ed4e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  measurementButton: {fileID: 821537041}
+  classicalNotGateIcon: {fileID: 21300000, guid: 11a9aa7d98c2d4e46865b9f666af3663,
+    type: 3}
+  quantumMeasurementGate: {fileID: 21300000, guid: 069c02bf994314ce79ff25c473062e88,
+    type: 3}
   classicalOne: {fileID: 1626132729}
   classicalZero: {fileID: 271251731}
   classicalBitArrow: {fileID: 459492292}
@@ -4584,6 +4589,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &821537041 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7332300868348899848, guid: fcc23280d0a16447284aca3ac69ac7ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080029880}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &837200550
 GameObject:
   m_ObjectHideFlags: 0
