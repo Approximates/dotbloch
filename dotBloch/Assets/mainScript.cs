@@ -8,6 +8,15 @@ public class mainScript : MonoBehaviour {
 	Qubit quantumBit;
 
 	Bit classicalBit;
+
+	[SerializeField]
+	private Button measurementButton;
+	[SerializeField]
+	private Sprite classicalNotGateIcon;
+	[SerializeField]
+	private Sprite quantumMeasurementGate;
+	
+
 	
 	public GameObject classicalOne;
 	public GameObject classicalZero;
@@ -313,6 +322,17 @@ public class mainScript : MonoBehaviour {
 		}
 		setPointers();
 		setListenersForSliders();
+		changeMeasurementGateIcon();
+	}
+
+	private void changeMeasurementGateIcon() {
+		if (isQuantumBitSelected) {
+			measurementButton.image.sprite = quantumMeasurementGate;
+		} else {
+			measurementButton.image.sprite = classicalNotGateIcon;
+		}
+		Debug.Log("Tutaj changeMeasurementGateIcon() ");
+
 	}
 
 	private void setTransparencyOfQuantumProbabilityLabels(Qubit quantumBit)
